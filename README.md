@@ -55,7 +55,7 @@ The files below used to download data from the 4-gas sensor variant. These senso
 
 |Code | Description |
 |-----|-------------|
-|[1_pull_status_json 4.py](./inputs/jan20_feb21/1_pull_status_json 4.py)| Downloads data for the status topic - GPS location, up-time info etc.|
+| [1_pull_status_json 4.py](./inputs/jan20_feb21/1_pull_status_json 4.py) | Downloads data for the status topic - GPS location, up-time info etc.|
 |---|---|
 |[./inputs/jan20_feb21/1_pull_pm_json 4.py](1_pull_pm_json 4.py)| Downloads data for the particles topic - PM concentrations data, counts, flow rates etc.|
 |---|---|
