@@ -48,18 +48,25 @@ OxAria datasets were dowmloaded periodically from the South Coast Science AWS cl
 
 Downloads were handled separately for 1 and 4-gas sensors described in section (0). The files below were used to pull data from the AWS cloud d to local Json files & then to convert Json  to CSV format.
 
-## 4-gas sensors download
+## 4-gas sensors download code
 The files below used to download data from the 4-gas sensor variant. These sensors are owned by the University of Birmingham. File nomenclature:  4-gas sensors are grouped under the `oxaria1` file label / handle, they were the 1st batch of sensors purchased for use by OxAria & via NERC funding.
 
 ### Data January 2020 to February 2021.
-[./inputs/jan20_feb21/1_pull_status_json 4.py] Downloads data for the status topic - GPS location, up-time info etc.
 
-![[1_pull_pm_json 4.py]] Downloads data for the particles topic - PM concentrations data, counts, flow rates etc.
-
-![[1_pull_gases_json 4.py]] Downloads data for the gases topic - gas concentrations data, voltages, N3 based T & RH etc.
-![[1_pull_climate_json 4.py]] Downloads data for the climate topic - temperature, RH data etc.
-
-![[2_json_to_csv 6.py]] Converts the json based files created by the above to CSV format.
+|Code | Description |
+|-----|-------------|
+|[./inputs/jan20_feb21/1_pull_status_json 4.py](1_pull_status_json 4.p)| Downloads data for the status topic - GPS location, up-time info etc.|
+|---|---|
+|[./inputs/jan20_feb21/1_pull_pm_json 4.py](1_pull_pm_json 4.py)| Downloads data for the particles topic - PM concentrations data, counts, flow rates etc.|
+|---|---|
+|[./inputs/jan20_feb21/1_pull_gases_json 4.py](1_pull_gases_json 4.py)| Downloads data for the gases topic - gas concentrations data, voltages, N3 based T & RH etc.|
+|---|---|
+|[./inputs/jan20_feb21/1_pull_status_json 4.py](1_pull_status_json 4.py)| Downloads data for the status topic - GPS location, up-time info etc.|
+|---|---|
+|[./inputs/jan20_feb21/1_pull_climate_json 4.py](1_pull_climate_json 4.py)| Downloads data for the climate topic - temperature, RH data etc.|
+|---|---|
+|[./inputs/jan20_feb21/2_json_to_csv 6.py](2_json_to_csv 6.py)| Converts the json based files created by the above to CSV format.|
+|---|---|
 
 ### Data January 2021 to May 2021.
 
