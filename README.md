@@ -54,7 +54,7 @@ The files below used to download data from the 4-gas sensor variant. These senso
 ### Data January 2020 to February 2021.
 
 
- !['1_pull_status_json 4.py'](./inputs/jan20_feb21/1_pull_status_json 4.py)
+ !['1_pull_status_json.py'](https://github.com/tonybushido/oxaria_code/blob/main/inputs/1oxaria/jan20_feb21/1_pull_status_json.py)
 
 |Code | Description |
 |-----|-------------|
