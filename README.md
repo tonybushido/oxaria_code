@@ -258,3 +258,35 @@ The notebooks below used to screen out parts of respective time series where the
 [3_stable_oxaria2_pm_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/3_stable_oxaria2_pm_v1.ipynb)
 
 [3_stable_oxaria2_status_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/3_stable_oxaria2_status_v1.ipynb)
+
+
+# Compiling reference obervations
+The notebooks below used compile reference measurements from Oxford AUTN monitoring stations at 51-minute averages.
+
+
+## Data January 2020 to February 2021.
+https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/4_converging_sebbes_highst_v1_ratified.ipynb
+
+## Data January 2021 to May 2021.
+https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/4_converging_sebbes_highst_and_auto_merged_sept2021.ipynb
+
+## Data June 2021 to October 2021.
+https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/4_converging_sebbes_highst_and_auto_merged_jan2022.ipynb
+
+
+# Aggregating data to 15-minutes averages
+
+
+## Data January 2020 to February 2021.
+https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/4_converging_sebbes_highst_v1_ratified.ipynb
+
+## Data January 2021 to May 2021.
+https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/4_converging_sebbes_highst_and_auto_merged_sept2021.ipynb
+
+## Data June 2021 to October 2021.
+https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/4_converging_sebbes_highst_and_auto_merged_jan2022.ipynb
+
+
+
+
+
