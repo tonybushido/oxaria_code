@@ -39,7 +39,7 @@ Two variants of the South Coast Science Praxis Urban sensor systems were dployed
 The initial stages of the data processing workflow handles data from these different systems differently - because of the different 'channels' included in each topic. Processing tasks were grouped into `*oxaria1*` & `*oxaria2*` in the filename, relating to 4-gas & 1-gas sensor processing activities respectively.
 
 # Scripting &  Jupyter Notebook codebase
-## Data acquisition & transformation tasks
+## acquisition & transformation tasks
 OxAria datasets were dowmloaded periodically from the South Coast Science AWS cloud. For the period covered by NIHR & NERC funded research project & this repo, (2020-2021), data were downloaded in 3 tranches;
 
 1. January 2020 to February 2021.
@@ -51,7 +51,7 @@ Downloads were handled separately for 1 and 4-gas sensors described in section (
 ## 4-gas sensors download code
 The files below used to download data from the 4-gas sensor variant. These sensors are owned by the University of Birmingham. File nomenclature:  4-gas sensors are grouped under the `oxaria1` file label / handle, they were the 1st batch of sensors purchased for use by OxAria & via NERC funding.
 
-### Data January 2020 to February 2021.
+### January 2020 to February 2021.
 | Code | Description |
 |:-----|:------------|
 |  [1_pull_status_json.py](https://github.com/tonybushido/oxaria_code/blob/main/inputs/1oxaria/jan20_feb21/1_pull_status_json.py) | Downloads data for the status topic - GPS location, up-time info etc.|
@@ -61,7 +61,7 @@ The files below used to download data from the 4-gas sensor variant. These senso
 [1_pull_climate_json.py](https://github.com/tonybushido/oxaria_code/blob/main/inputs/1oxaria/jan20_feb21/1_pull_climate_json.py)| Downloads data for the climate topic - temperature, RH data etc.|
 [2_json_to_csv.py](https://github.com/tonybushido/oxaria_code/blob/main/inputs/1oxaria/jan20_feb21/2_json_to_csv.py)| Converts the json based files created by the above to CSV format.|
 
-### Data January 2021 to May 2021.
+### January 2021 to May 2021.
 | Code | Description |
 |:-----|:------------|
 [1_pull_status_json_2021.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/1oxaria/jun_to_sept_2021/1_pull_status_json_2021.py)| Downloads data for the status topic - GPS location, up-time info etc.
@@ -70,7 +70,7 @@ The files below used to download data from the 4-gas sensor variant. These senso
 [1_pull_climate_json_2021.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/1oxaria/jun_to_sept_2021/1_pull_climate_json_2021.py)| Downloads data for the climate topic - temperature, RH data etc.
 [2_json_to_csv.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/1oxaria/jun_to_sept_2021/2_json_to_csv.py)| Converts the json based files created by the above to CSV format.
 
-### Data June 2021 to October 2021.
+### June 2021 to October 2021.
 | Code | Description |
 |:-----|:------------|
 [1_pull_climate_json_2021.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/1oxaria/q12021/1_pull_climate_json_2021.py)| Downloads data for the climate topic - temperature, RH data etc.
@@ -82,7 +82,7 @@ The files below used to download data from the 4-gas sensor variant. These senso
 
 ## 1-gas sensors download
 The files below used to download data from the 1-gas sensor variant. These sensors are owned by the University of Oxford. For file nomenclature, 1-gas sensors are grouped under the `oxaria2` file label / handle, they were the 2nd batch of sensors purchase for use by OxAria & are non-NERC funded (Research England(?)).
-### Data January 2020 to February 2021.
+### January 2020 to February 2021.
 | Code | Description |
 |:-----|:------------|
 [1_pull_status_json.py](https://github.com/tonybushido/oxaria_code/blob/main/inputs/2oxaria/jan20_feb21/1_pull_status_json.py) | Downloads data for the status topic - GPS location, up-time info etc.|
@@ -91,7 +91,7 @@ The files below used to download data from the 1-gas sensor variant. These senso
 [1_pull_status_json.py](https://github.com/tonybushido/oxaria_code/blob/main/inputs/2oxaria/jan20_feb21/1_pull_status_json.py)| Downloads data for the status topic - GPS location, up-time info etc.|
 [1_pull_climate_json.py](https://github.com/tonybushido/oxaria_code/blob/main/inputs/2oxaria/jan20_feb21/1_pull_climate_json.py)| Downloads data for the climate topic - temperature, RH data etc.|
 [2_json_to_csv.py](https://github.com/tonybushido/oxaria_code/blob/main/inputs/21oxaria/jan20_feb21/2_json_to_csv.py)| Converts the json based files created by the above to CSV format.|
-### Data January 2021 to May 2021.
+### January 2021 to May 2021.
 | Code | Description |
 |:-----|:------------|
 |[1_pull_status_json_2021.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/2oxaria/jun_to_sept_2021/1_pull_status_json_2021.py)| Downloads data for the status topic - GPS location, up-time info etc.
@@ -99,7 +99,7 @@ The files below used to download data from the 1-gas sensor variant. These senso
 [1_pull_gases_json_2021.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/2oxaria/jun_to_sept_2021/1_pull_gases_json_2021.py)| Downloads data for the gases topic - gas concentrations data, voltages, N3 based T & RH etc.
 [1_pull_climate_json_2021.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/2oxaria/jun_to_sept_2021/1_pull_climate_json_2021.py)| Downloads data for the climate topic - temperature, RH data etc.
 [2_json_to_csv.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/2oxaria/jun_to_sept_2021/2_json_to_csv.py)| Converts the json based files created by the above to CSV format.
-### Data June 2021 to October 2021.
+### June 2021 to October 2021.
 | Code | Description |
 |:-----|:------------|
 [1_pull_climate_json_2021.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/2oxaria/q12021/1_pull_climate_json_2021.py)| Downloads data for the climate topic - temperature, RH data etc.
@@ -152,12 +152,12 @@ The Jupyter Notebooks presented below contain the workflow for;
     * [1_load_oxaria1_gases_v1.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/2oxaria/jun_to_sept_2021/1_load_oxaria2_gases_v1.py)
     * [1_load_oxaria1_pm_v1.](https://github.com/tonybushido/oxaria_code/tree/main/inputs/2oxaria/jun_to_sept_2021/1_load_oxaria2_pm_v1.py)
     * [1_load_oxaria2_status_climate_v1.py](https://github.com/tonybushido/oxaria_code/blob/main/inputs/2oxaria/jun_to_sept_2021/1_load_oxaria2_status_climate_v1.py)
-    
+
 # Visualising raw datasets
 
 The notebooks below used to display & visualise raw sensor data - feel & understanding for the datasets, data gaps, stability, drift, offsets etc.
 
-## Data January 2020 to February 2021.
+## January 2020 to February 2021.
 No record of first look file for climate topic.
 
 [2_first_look_oxaria1_raw_gases_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/2_first_look_oxaria1_raw_gases_v1.ipynb)
@@ -173,7 +173,7 @@ No record of first look file for climate topic.
 [2_first_look_oxaria2_raw_status_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/2_first_look_oxaria2_raw_status_v1.ipynb)
 
 
-## Data January 2021 to May 2021.
+## January 2021 to May 2021.
 [2_first_look_oxaria1_raw_gases_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/2_first_look_oxaria1_raw_climate_v1.ipynb)
 
 [2_first_look_oxaria1_raw_pm_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/2_first_look_oxaria1_raw_pm_v1.ipynb)
@@ -189,7 +189,7 @@ No record of first look file for climate topic.
 [2_first_look_oxaria2_raw_status_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/2_first_look_oxaria2_raw_status_v1.ipynb)
 
 
-## Data June 2021 to October 2021.
+## June 2021 to October 2021.
 No record of first look file for climate topic.
 
 [2_first_look_oxaria1_raw_gases_v1.ipynb](https://github.com/tonybushido/oxaria_code/tree/main/src/3_oct2021/2_first_look_oxaria1_raw_gases_v1.ipynb)
@@ -208,7 +208,7 @@ No record of first look file for climate topic.
 # Screening out unstable periods in sensor time series
 The notebooks below used to screen out parts of respective time series where there is clear evidnce of instability / discontinuity.
 
-## Data January 2020 to February 2021.
+## January 2020 to February 2021.
 [3_stable_oxaria1_climate_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/3_stable_oxaria1_climate_v1.ipynb)
 
 [3_stable_oxaria1_gases_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/3_stable_oxaria1_gases_v1.ipynb)
@@ -225,7 +225,7 @@ The notebooks below used to screen out parts of respective time series where the
 
 [3_stable_oxaria2_status_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/3_stable_oxaria2_status_v1.ipynb)
 
-## Data January 2021 to May 2021.
+## January 2021 to May 2021.
 [3_stable_oxaria1_climate_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/3_stable_oxaria1_climate_v1.ipynb)
 
 [3_stable_oxaria1_gases_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/3_stable_oxaria1_gases_v1.ipynb)
@@ -242,7 +242,7 @@ The notebooks below used to screen out parts of respective time series where the
 
 [3_stable_oxaria2_status_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/3_stable_oxaria2_status_v1.ipynb)
 
-## Data June 2021 to October 2021.
+## June 2021 to October 2021.
 [3_stable_oxaria1_climate_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/3_stable_oxaria1_climate_v1.ipynb)
 
 [3_stable_oxaria1_gases_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/3_stable_oxaria1_gases_v1.ipynb)
@@ -264,29 +264,34 @@ The notebooks below used to screen out parts of respective time series where the
 The notebooks below used compile reference measurements from Oxford AUTN monitoring stations at 51-minute averages.
 
 
-## Data January 2020 to February 2021.
+## January 2020 to February 2021.
 https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/4_converging_sebbes_highst_v1_ratified.ipynb
 
-## Data January 2021 to May 2021.
+## January 2021 to May 2021.
 https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/4_converging_sebbes_highst_and_auto_merged_sept2021.ipynb
 
-## Data June 2021 to October 2021.
+## June 2021 to October 2021.
 https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/4_converging_sebbes_highst_and_auto_merged_jan2022.ipynb
 
 
 # Aggregating data to 15-minutes averages
 
-
-## Data January 2020 to February 2021.
+## January 2020 to February 2021.
 https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/4_converging_sebbes_highst_v1_ratified.ipynb
 
-## Data January 2021 to May 2021.
+## January 2021 to May 2021.
 https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/4_converging_sebbes_highst_and_auto_merged_sept2021.ipynb
 
-## Data June 2021 to October 2021.
+## June 2021 to October 2021.
 https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/4_converging_sebbes_highst_and_auto_merged_jan2022.ipynb
 
 
+# Preparing training datasets
+## January 2020 to February 2021.
+https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/5_resample_stable_dfs_max_gradients_testing.ipynb
 
+## January 2021 to May 2021.
+https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/5_resample_stable_dfs_v2_with_transients.ipynb
 
-
+## June 2021 to October 2021.
+https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/5_resample_stable_dfs_v2_with_transients.ipynb
