@@ -39,7 +39,7 @@ Two variants of the South Coast Science Praxis Urban sensor systems were dployed
 The initial stages of the data processing workflow handles data from these different systems differently - because of the different 'channels' included in each topic. Processing tasks were grouped into `*oxaria1*` & `*oxaria2*` in the filename, relating to 4-gas & 1-gas sensor processing activities respectively.
 
 # Scripting &  Jupyter Notebook codebase
-## Data download & initial transformation tasks
+## Data acquisition & transformation tasks
 OxAria datasets were dowmloaded periodically from the South Coast Science AWS cloud. For the period covered by NIHR & NERC funded research project & this repo, (2020-2021), data were downloaded in 3 tranches;
 
 1. January 2020 to February 2021.
