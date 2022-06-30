@@ -160,33 +160,33 @@ The notebooks below used to display & visualise raw sensor data. Getting a feel 
 ## Data January 2020 to February 2021.
 No record of first look file for climate topic.
 
-[2_first_look_oxaria1_raw_gases_v1.ipynb](2_first_look_oxaria1_raw_gases_v1.ipynb)
+[2_first_look_oxaria1_raw_gases_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/2_first_look_oxaria1_raw_gases_v1.ipynb)
 
-[2_first_look_oxaria1_raw_pm_v1.ipynb](2_first_look_oxaria1_raw_pm_v1.ipynb)
+[2_first_look_oxaria1_raw_pm_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/2_first_look_oxaria1_raw_pm_v1.ipynb)
 
-[2_first_look_oxaria1_raw_status_v1.ipynb](2_first_look_oxaria1_raw_status_v1.ipynb)
+[2_first_look_oxaria1_raw_status_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/2_first_look_oxaria1_raw_status_v1.ipynb)
 
-[2_first_look_oxaria2_pm_data_v1.ipynb]([2_first_look_oxaria2_pm_data_v1.ipynb)
+[2_first_look_oxaria2_pm_data_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/2_first_look_oxaria2_pm_data_v1.ipynb)
 
-[2_first_look_oxaria2_raw_gases_v1.ipynb](2_first_look_oxaria2_raw_gases_v1.ipynb)
+[2_first_look_oxaria2_raw_gases_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/2_first_look_oxaria2_raw_gases_v1.ipynb)
 
-[2_first_look_oxaria2_raw_status_v1.ipynb](2_first_look_oxaria2_raw_status_v1.ipynb)
+[2_first_look_oxaria2_raw_status_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/2_first_look_oxaria2_raw_status_v1.ipynb)
 
 
 ## Data January 2021 to May 2021.
-[2_first_look_oxaria1_raw_gases_v1 1.ipynb](2_first_look_oxaria1_raw_climate_v1.ipynb)
+[2_first_look_oxaria1_raw_gases_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/2_first_look_oxaria1_raw_climate_v1.ipynb)
 
-[2_first_look_oxaria1_raw_pm_v1 1.ipynb](2_first_look_oxaria1_raw_pm_v1 1.ipynb)
+[2_first_look_oxaria1_raw_pm_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/2_first_look_oxaria1_raw_pm_v1.ipynb)
 
-[2_first_look_oxaria1_raw_status_v1 1.ipynb](2_first_look_oxaria1_raw_status_v1 1.ipynb)
+[2_first_look_oxaria1_raw_status_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/2_first_look_oxaria1_raw_status_v1.ipynb)
 
-[2_first_look_oxaria2_pm_data_v1 1.ipynb](2_first_look_oxaria2_pm_data_v1 1.ipynb)
+[2_first_look_oxaria2_pm_data_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/2_first_look_oxaria2_pm_data_v1.ipynb)
 
-[2_first_look_oxaria2_raw_climate_v1.ipynb](2_first_look_oxaria2_raw_climate_v1.ipynb)
+[2_first_look_oxaria2_raw_climate_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/2_first_look_oxaria2_raw_climate_v1.ipynb)
 
-[2_first_look_oxaria2_raw_gases_v1 1.ipynb](2_first_look_oxaria2_raw_gases_v1 1.ipynb)
+[2_first_look_oxaria2_raw_gases_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/2_first_look_oxaria2_raw_gases_v1.ipynb)
 
-[2_first_look_oxaria2_raw_status_v1 1.ipynb](2_first_look_oxaria2_raw_status_v1 1.ipynb)
+[2_first_look_oxaria2_raw_status_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/2_first_look_oxaria2_raw_status_v1.ipynb)
 
 
 ## Data June 2021 to October 2021.
