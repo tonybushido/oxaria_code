@@ -127,10 +127,10 @@ The Jupyter Notebooks presented below contain the workflow for;
     * [1_load_oxaria1_status_climate_v1.py](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/1_load_oxaria1_status_climate_v1.py)
 
 -  Data June 2021 to October 2021.
-    * [1_load_oxaria1_gases_v1_gf.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/1_load_oxaria1_gases_gf.py)
-    * [1_load_oxaria1_pm_v1_gf.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/1_load_oxaria1_pm_gf.py)
-    * [1_load_oxaria1_climate_gf.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/1_load_oxaria1_pm_gf.py)
-    * [1_load_oxaria1_status_gf.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/1_load_oxaria1_status_gf.py)
+    * [1_load_oxaria1_gases_v1.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/1_load_oxaria1_gases_v1.py)
+    * [1_load_oxaria1_pm_v1.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/1_load_oxaria1_pm_v1.py)
+    * [1_load_oxaria1_climate_v1.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/1_load_oxaria1_pm_v1.py)
+    * [1_load_oxaria1_status_v1.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/1_load_oxaria1_status_v1.py)
 
 
 ### Loading 1-gas sensor data
