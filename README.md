@@ -39,7 +39,7 @@ Two variants of the South Coast Science Praxis Urban sensor systems were dployed
 The initial stages of the data processing workflow handles data from these different systems differently - because of the different 'channels' included in each topic. Processing tasks were grouped into `*oxaria1*` & `*oxaria2*` in the filename, relating to 4-gas & 1-gas sensor processing activities respectively.
 
 # Scripting &  Jupyter Notebook codebase
-## Data download & initial transformation tasks
+## Data acquisition & transformation tasks
 OxAria datasets were dowmloaded periodically from the South Coast Science AWS cloud. For the period covered by NIHR & NERC funded research project & this repo, (2020-2021), data were downloaded in 3 tranches;
 
 1. January 2020 to February 2021.
@@ -70,7 +70,7 @@ The files below used to download data from the 4-gas sensor variant. These senso
 [1_pull_climate_json_2021.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/1oxaria/jun_to_sept_2021/1_pull_climate_json_2021.py)| Downloads data for the climate topic - temperature, RH data etc.
 [2_json_to_csv.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/1oxaria/jun_to_sept_2021/2_json_to_csv.py)| Converts the json based files created by the above to CSV format.
 
-### !Data June 2021 to October 2021.
+### Data June 2021 to October 2021.
 | Code | Description |
 |:-----|:------------|
 [1_pull_climate_json_2021.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/1oxaria/q12021/1_pull_climate_json_2021.py)| Downloads data for the climate topic - temperature, RH data etc.
