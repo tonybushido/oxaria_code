@@ -54,7 +54,7 @@ The files below used to download data from the 4-gas sensor variant. These senso
 ### January 2020 to February 2021.
 | Code | Description |
 |:-----|:------------|
-|  [1_pull_status_json.py](https://github.com/tonybushido/oxaria_code/src/1_jan20_feb21/1_pull_status_json.py) | Downloads data for the status topic - GPS location, up-time info etc.|
+|  [1_pull_status_json.py](https://github.com/tonybushido/oxaria_code/blob/main/src/1_jan20_feb21/1_pull_status_json.py) | Downloads data for the status topic - GPS location, up-time info etc.|
 [1_pull_pm_json.py](https://github.com/tonybushido/oxaria_code/blob/main/src/1_jan20_feb21/1_pull_pm_json.py)| Downloads data for the particles topic - PM concentrations data, counts, flow rates etc.|
 [1_pull_gases_json.py](https://github.com/tonybushido/oxaria_code/blob/main/src/1_jan20_feb21/1_pull_gases_json.py)| Downloads data for the gases topic - gas concentrations data, voltages, N3 based T & RH etc.|
 [1_pull_status_json.py](https://github.com/tonybushido/oxaria_code/blob/main/src/1_jan20_feb21/1_pull_status_json.py)| Downloads data for the status topic - GPS location, up-time info etc.|
