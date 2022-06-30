@@ -198,7 +198,7 @@ No record of first look file for climate topic.
 
 [2_first_look_oxaria1_raw_status_v1.ipynb](https://github.com/tonybushido/oxaria_code/tree/main/src/3_oct2021/2_first_look_oxaria1_raw_status_v1.ipynb)
 
-[2_first_look_oxaria2 raw_gases_v1.ipynb]([https://github.com/tonybushido/oxaria_code/tree/main/src/3_oct2021/2_first_look_oxaria2_raw_gases_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/2_first_look_oxaria2%20_raw_gases_v1.ipynb))
+[2_first_look_oxaria2 raw_gases_v1.ipynb](https://github.com/tonybushido/oxaria_code/tree/main/src/3_oct2021/2_first_look_oxaria2_raw_gases_v1.ipynb)
 
 [2_first_look_oxaria2_pm_data_v1.ipynb](https://github.com/tonybushido/oxaria_code/tree/main/src/3_oct2021/2_first_look_oxaria2_pm_data_v1.ipynb)
 
