@@ -100,11 +100,11 @@ The files below used to download data from the 1-gas sensor variant. These senso
 ### June 2021 to October 2021.
 | Code | Description |
 |:-----|:------------|
-|[1_pull_status_json_2021.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/1_pull_status_json_2021.py)| Downloads data for the status topic - GPS location, up-time info etc.
-[1_pull_pm_json_2021.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/1_pull_pm_json_2021.py)|bDownloads data for the particles topic - PM concentrations data, counts, flow rates etc.
-[1_pull_gases_json_2021.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/1_pull_gases_json_2021.py)| Downloads data for the gases topic - gas concentrations data, voltages, N3 based T & RH etc.
-[1_pull_climate_json_2021.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/1_pull_climate_json_2021.py)| Downloads data for the climate topic - temperature, RH data etc.
-[2_json_to_csv.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/2_json_to_csv.py)| Converts the json based files created by the above to CSV format.
+|[1_pull_status_json_2021_2.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/1_pull_status_json_2021_2.py)| Downloads data for the status topic - GPS location, up-time info etc.
+[1_pull_pm_json_2021_2.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/1_pull_pm_json_2021_2.py)|bDownloads data for the particles topic - PM concentrations data, counts, flow rates etc.
+[1_pull_gases_json_2021_2.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/1_pull_gases_json_2021_2.py)| Downloads data for the gases topic - gas concentrations data, voltages, N3 based T & RH etc.
+[1_pull_climate_json_2021_2.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/1_pull_climate_json_2021_2.py)| Downloads data for the climate topic - temperature, RH data etc.
+[2_json_to_csv_2.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/2_json_to_csv_2.py)| Converts the json based files created by the above to CSV format.
 ## Loading CSV files to Pandas for data analysis
 The Jupyter Notebooks presented below contain the workflow for;
 
