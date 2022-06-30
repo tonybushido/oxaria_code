@@ -125,28 +125,30 @@ The Jupyter Notebooks presented below contain the workflow for;
     * [1_load_oxaria1_status_gf.py](https://github.com/tonybushido/oxaria_code/blob/main/inputs/1oxaria/jan20_feb21/1_load_oxaria1_status_gf.py)
 
 - Data January 2021 to May 2021.
-    * [1_load_oxaria1_gases_v1.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/1oxaria/jun_to_sept_2021/1_load_oxaria1_gases_v1.py)
-    * [1_load_oxaria1_pm_v1.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/1oxaria/jun_to_sept_2021/1_load_oxaria1_pm_v1.py)
-    * [1_load_oxaria1_status_climate_v1.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/1oxaria/jun_to_sept_2021/1_load_oxaria1_status_climate_v1.py)
-
--  Data June 2021 to October 2021.
     * [1_load_oxaria1_gases_v1.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/1oxaria/q12021/1_load_oxaria1_gases_v1.py)
     * [1_load_oxaria1_pm_v1.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/1oxaria/q12021/1_load_oxaria1_pm_v1.py)
     * [1_load_oxaria1_status_climate_v1.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/1oxaria/q12021/1_load_oxaria1_status_climate_v1.py)
 
+-  Data June 2021 to October 2021.
+    * [1_load_oxaria1_gases_v1_gf.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/1oxaria/jun_to_sept_2021/1_load_oxaria1_gases_gf.py)
+    * [1_load_oxaria1_pm_v1_gf.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/1oxaria/jun_to_sept_2021/1_load_oxaria1_pm_gf.py)
+    * [1_load_oxaria1_climate_gf.py](https://github.com/tonybushido/oxaria_code/blob/main/inputs/1oxaria/jun_to_sept_2021/1_load_oxaria1_pm_gf.py)
+    * [1_load_oxaria1_status_gf.py](https://github.com/tonybushido/oxaria_code/blob/main/inputs/1oxaria/jun_to_sept_2021/1_load_oxaria1_status_gf.py)
+
+
 ### Loading 1-gas sensor data
-- Data January 2020 to February 2021.
-    * [1_load_oxaria1_climate_gf.py](https://github.com/tonybushido/oxaria_code/blob/main/inputs/2oxaria/jan20_feb21/1_load_oxaria1_climate_gf.py)
-    * [1_load_oxaria1_gases_gf.py](https://github.com/tonybushido/oxaria_code/blob/main/inputs/2oxaria/jan20_feb21/1_load_oxaria1_gases_gf.py)
-    * [1_load_oxaria1_pm_gf.py](https://github.com/tonybushido/oxaria_code/blob/main/inputs/2oxaria/jan20_feb21/1_load_oxaria1_pm_gf.py)
-    * [1_load_oxaria1_status_gf.py](https://github.com/tonybushido/oxaria_code/blob/main/inputs/2oxaria/jan20_feb21/1_load_oxaria1_status_gf.py)
+- Data January 2020 to February 2021
+    * [1_load_oxaria1_climate_gf.py](https://github.com/tonybushido/oxaria_code/blob/main/inputs/2oxaria/jan20_feb21/1_load_oxaria2_climate_gf.py)
+    * [1_load_oxaria1_gases_gf.py](https://github.com/tonybushido/oxaria_code/blob/main/inputs/2oxaria/jan20_feb21/1_load_oxaria2_gases_gf.py)
+    * [1_load_oxaria1_pm_gf.py](https://github.com/tonybushido/oxaria_code/blob/main/inputs/2oxaria/jan20_feb21/1_load_oxaria2_pm_gf.py)
+    * [1_load_oxaria1_status_gf.py](https://github.com/tonybushido/oxaria_code/blob/main/inputs/2oxaria/jan20_feb21/1_load_oxaria2_status_gf.py)
 
 - Data January 2021 to May 2021.
-    * [1_load_oxaria1_gases_v1.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/2oxaria/jun_to_sept_2021/1_load_oxaria1_gases_v1.py)
-    * [1_load_oxaria1_pm_v1.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/2oxaria/jun_to_sept_2021/1_load_oxaria1_pm_v1.py)
-    * [1_load_oxaria1_status_climate_v1.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/2oxaria/jun_to_sept_2021/1_load_oxaria1_status_climate_v1.py)
-
--  Data June 2021 to October 2021.
     * [1_load_oxaria1_gases_v1.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/2oxaria/q12021/1_load_oxaria1_gases_v1.py)
     * [1_load_oxaria1_pm_v1.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/2oxaria/q12021/1_load_oxaria1_pm_v1.py)
     * [1_load_oxaria1_status_climate_v1.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/2oxaria/q12021/1_load_oxaria1_status_climate_v1.py)
+
+-  Data June 2021 to October 2021.
+    * [1_load_oxaria1_gases_v1.py](https://github.com/tonybushido/oxaria_code/tree/main/inputs/2oxaria/jun_to_sept_2021/1_load_oxaria2_gases_v1.py)
+    * [1_load_oxaria1_pm_v1.](https://github.com/tonybushido/oxaria_code/tree/main/inputs/2oxaria/jun_to_sept_2021/1_load_oxaria2_pm_v1.py)
+    * [1_load_oxaria2_status_climate_v1.py](https://github.com/tonybushido/oxaria_code/blob/main/inputs/2oxaria/jun_to_sept_2021/1_load_oxaria2_status_climate_v1.py)
