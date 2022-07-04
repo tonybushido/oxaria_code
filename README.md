@@ -243,3 +243,6 @@ Missing, no longer implemented.
 
 # TASK 9 - Empirical filters & sensor baselining 
 
+Notebook applying empirical filters to clean up gross anomalies in sensor data, then applies AIRPLS to correct for baseline offset & drift.
+
+
