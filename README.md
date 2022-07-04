@@ -185,80 +185,33 @@ The notebooks below used to display & visualise raw sensor data for exploratory 
 # Screening out unstable periods in sensor time series
 The notebooks below used to screen out parts of respective time series where there is clear evidnce of instability / discontinuity.
 
-## January 2020 to February 2021.
-[3_stable_oxaria1_climate_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/3_stable_oxaria1_climate_v1.ipynb)
-
-[3_stable_oxaria1_gases_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/3_stable_oxaria1_gases_v1.ipynb)
-
-[3_stable_oxaria1_pm_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/3_stable_oxaria1_pm_v1.ipynb)
-
-[3_stable_oxaria1_status_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/3_stable_oxaria1_status_v1.ipynb)
-
-[3_stable_oxaria2_climate_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/3_stable_oxaria2_climate_v1.ipynb)
-
-[3_stable_oxaria2_gases_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/3_stable_oxaria2_gases_v1.ipynb)
-
-[3_stable_oxaria2_pm_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/3_stable_oxaria2_pm_v1.ipynb)
-
-[3_stable_oxaria2_status_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/3_stable_oxaria2_status_v1.ipynb)
-
-## January 2021 to May 2021.
-[3_stable_oxaria1_climate_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/3_stable_oxaria1_climate_v1.ipynb)
-
-[3_stable_oxaria1_gases_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/3_stable_oxaria1_gases_v1.ipynb)
-
-[3_stable_oxaria1_pm_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/3_stable_oxaria1_pm_v1.ipynb)
-
-[3_stable_oxaria1_status_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/3_stable_oxaria1_status_v1.ipynb)
-
-[3_stable_oxaria2_climate_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/3_stable_oxaria2_climate_v1.ipynb)
-
-[3_stable_oxaria2_gases_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/3_stable_oxaria2_gases_v1.ipynb)
-
-[3_stable_oxaria2_pm_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/3_stable_oxaria2_pm_v1.ipynb)
-
-[3_stable_oxaria2_status_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/3_stable_oxaria2_status_v1.ipynb)
-
-## June 2021 to October 2021.
-[3_stable_oxaria1_climate_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/3_stable_oxaria1_climate_v1.ipynb)
-
-[3_stable_oxaria1_gases_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/3_stable_oxaria1_gases_v1.ipynb)
-
-[3_stable_oxaria1_pm_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/3_stable_oxaria1_pm_v1.ipynb)
-
-[3_stable_oxaria1_status_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/3_stable_oxaria1_status_v1.ipynb)
-
-[3_stable_oxaria2_climate_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/3_stable_oxaria2_climate_v1.ipynb)
-
-[3_stable_oxaria2_gases_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/3_stable_oxaria2_gases_v1.ipynb)
-
-[3_stable_oxaria2_pm_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/3_stable_oxaria2_pm_v1.ipynb)
-
-[3_stable_oxaria2_status_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/3_stable_oxaria2_status_v1.ipynb)
-
+| January 2020 to February 2021. | January 2021 to May 2021 | June 2021 to October 2021 |
+|---|---|---|
+| [3_stable_oxaria1_climate_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/3_stable_oxaria1_climate_v1.ipynb) | [3_stable_oxaria1_climate_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/3_stable_oxaria1_climate_v1.ipynb) | [3_stable_oxaria1_climate_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/3_stable_oxaria1_climate_v1.ipynb) |
+| [3_stable_oxaria1_gases_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/3_stable_oxaria1_gases_v1.ipynb) | [3_stable_oxaria1_gases_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/3_stable_oxaria1_gases_v1.ipynb) | [3_stable_oxaria1_gases_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/3_stable_oxaria1_gases_v1.ipynb) |
+| [3_stable_oxaria1_pm_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/3_stable_oxaria1_pm_v1.ipynb) | [3_stable_oxaria1_pm_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/3_stable_oxaria1_pm_v1.ipynb) | [3_stable_oxaria1_pm_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/3_stable_oxaria1_pm_v1.ipynb) |
+| [3_stable_oxaria1_status_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/3_stable_oxaria1_status_v1.ipynb) | [3_stable_oxaria1_status_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/3_stable_oxaria1_status_v1.ipynb) | [3_stable_oxaria1_status_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/3_stable_oxaria1_status_v1.ipynb) |
+| [3_stable_oxaria2_climate_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/3_stable_oxaria2_climate_v1.ipynb) | [3_stable_oxaria2_climate_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/3_stable_oxaria2_climate_v1.ipynb) | [3_stable_oxaria2_climate_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/3_stable_oxaria2_climate_v1.ipynb) |
+| [3_stable_oxaria2_gases_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/3_stable_oxaria2_gases_v1.ipynb) | [3_stable_oxaria2_gases_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/3_stable_oxaria2_gases_v1.ipynb) | [3_stable_oxaria2_gases_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/3_stable_oxaria2_gases_v1.ipynb) |
+| [3_stable_oxaria2_pm_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/3_stable_oxaria2_pm_v1.ipynb) | [3_stable_oxaria2_pm_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/3_stable_oxaria2_pm_v1.ipynb) | [3_stable_oxaria2_pm_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/3_stable_oxaria2_pm_v1.ipynb) |
+| [3_stable_oxaria2_status_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/3_stable_oxaria2_status_v1.ipynb) | [3_stable_oxaria2_status_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/3_stable_oxaria2_status_v1.ipynb) | [3_stable_oxaria2_status_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/3_stable_oxaria2_status_v1.ipynb) |
 
 # Compiling reference obervations
 The notebooks below used compile reference measurements from Oxford AUTN monitoring stations at 51-minute averages.
 
-## January 2020 to February 2021.
-https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/4_converging_sebbes_highst_v1_ratified.ipynb
+January 2020 to February 2021. | 4_converging_sebbes_highst_v1_ratified.ipynb https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/4_converging_sebbes_highst_v1_ratified.ipynb
 
-## January 2021 to May 2021.
-https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/4_converging_sebbes_highst_and_auto_merged_sept2021.ipynb
+January 2021 to May 2021. | b4_converging_sebbes_highst_and_auto_merged_sept2021.ipynb https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/4_converging_sebbes_highst_and_auto_merged_sept2021.ipynb
 
-## June 2021 to October 2021.
-https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/4_converging_sebbes_highst_and_auto_merged_jan2022.ipynb
+June 2021 to October 2021. | 4_converging_sebbes_highst_and_auto_merged_sept2021.ipynb https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/4_converging_sebbes_highst_and_auto_merged_sept2021.ipynb
 
 # Aggregating data to 15-minutes averages
 
-## January 2020 to February 2021.
-https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/4_converging_sebbes_highst_v1_ratified.ipynb
+January 2020 to February 2021 | [4_converging_sebbes_highst_v1_ratified.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/4_converging_sebbes_highst_v1_ratified.ipynb)
 
-## January 2021 to May 2021.
-https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/4_converging_sebbes_highst_and_auto_merged_sept2021.ipynb
+January 2021 to May 2021 | [4_converging_sebbes_highst_and_auto_merged_sept2021.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/4_converging_sebbes_highst_and_auto_merged_sept2021.ipynb)
 
-## June 2021 to October 2021.
-https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/4_converging_sebbes_highst_and_auto_merged_jan2022.ipynb
+June 2021 to October 2021 | [4_converging_sebbes_highst_and_auto_merged_jan2022.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/4_converging_sebbes_highst_and_auto_merged_jan2022.ipynb)
 
 # Preparing training datasets
 ## January 2020 to February 2021.
