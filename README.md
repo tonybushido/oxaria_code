@@ -245,4 +245,4 @@ Missing, no longer implemented.
 
 Notebook applying empirical filters to clean up gross anomalies in sensor data, then applies AIRPLS to correct for baseline offset & drift.
 
-
+[9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb)
