@@ -226,7 +226,7 @@ These notebooks aggregate 10-second sensor observations to 15-minutes averages f
 | June 2021 to October 2021 | [5_resample_stable_dfs_v2_with_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/5_resample_stable_dfs_v2_with_transients.ipynb) |
 
 # TASK 6
-Missing, no longer implemented
+Missing, no longer implemented.
 
 # TASK 7 - Preparing training datasets
 This notebook prepares sensor datasets for RF regressor training. 
@@ -237,3 +237,9 @@ This notebook prepares sensor datasets for RF regressor training.
 - Joins reference measurement data on to the sensor data 
 
 [7_extract_modelling_datasets_v2_sept21_update_with_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/7_extract_modelling_datasets_v2_sept21_update_with_transients.ipynb)
+
+# TASK 8
+Missing, no longer implemented.
+
+# TASK 9 - Empirical filters & sensor baselining 
+
