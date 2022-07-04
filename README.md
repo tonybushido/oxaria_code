@@ -36,22 +36,24 @@ Two variants of the South Coast Science Praxis Urban sensor systems were dployed
 - A 4-gas (no2, no, o3 & co) + PM (PM10, PM2.5 & PM1) sensor system purchased by UoB, 8 sensors total
 - A 1-gas (no2 only) + PM (PM10, PM2.5 & PM1) sensor system purchased by UoO, 8 sensors total
 
-The initial stages of the data processing workflow handles data from these different systems differently - because of the different 'channels' included in each topic. Processing tasks were grouped into `*oxaria1*` & `*oxaria2*` in the filename, relating to 4-gas & 1-gas sensor processing activities respectively.
+The initial stages of the data processing workflow handles data from these different systems differently - because of the different 'channels' included in each MQTT topic. Processing tasks were grouped into `*oxaria1*` & `*oxaria2*` in the filename, relating to 4-gas & 1-gas sensor processing activities respectively.
+
+4-gas sensors are owned by the University of Birmingham & grouped under the `oxaria1` file label / folders - they were the 1st batch of sensors purchased for use by OxAria & via NERC funding.
 
 # Scripting &  Jupyter Notebook codebase
-## acquisition & transformation tasks
+
 OxAria datasets were dowmloaded periodically from the South Coast Science AWS cloud. For the period covered by NIHR & NERC funded research project & this repo, (2020-2021), data were downloaded in 3 tranches;
 
 1. January 2020 to February 2021.
 2. January 2021 to May 2021.
 3. June 2021 to October 2021.
 
-Downloads were handled separately for 1 and 4-gas sensors described in section (0). The files below were used to pull data from the AWS cloud d to local Json files & then to convert Json  to CSV format.
+Downloads were handled separately for 1 and 4-gas sensors described in sections 1a & 1b below. 
 
-## TASK 1a - 4-gas sensors download code
-The `py` files below used to download data for the 4-gas sensor variant. 4-gas sensors are owned by the University of Birmingham & grouped under the `oxaria1` file label / folders - they were the 1st batch of sensors purchased for use by OxAria & via NERC funding.
+# TASK 1a - 4-gas sensor data acquisition
+The `.py` scripts below used to download data from the 4-gas sensor variant from the AWS cloud to local Json files & then to convert Json to CSV format.
 
-### January 2020 to February 2021.
+## January 2020 to February 2021.
 | Code | Description |
 |:-----|:------------|
 |  [1_pull_status_json.py](https://github.com/tonybushido/oxaria_code/blob/main/src/1_jan20_feb21/1_pull_status_json.py) | Downloads data for the status topic - GPS location, up-time info etc.|
@@ -60,7 +62,8 @@ The `py` files below used to download data for the 4-gas sensor variant. 4-gas s
 [1_pull_status_json.py](https://github.com/tonybushido/oxaria_code/blob/main/src/1_jan20_feb21/1_pull_status_json.py)| Downloads data for the status topic - GPS location, up-time info etc.|
 [1_pull_climate_json.py](https://github.com/tonybushido/oxaria_code/blob/main/src/1_jan20_feb21/1_pull_climate_json.py)| Downloads data for the climate topic - temperature, RH data etc.|
 [2_json_to_csv.py](https://github.com/tonybushido/oxaria_code/blob/main/src/1_jan20_feb21/2_json_to_csv.py)| Converts the json based files created by the above to CSV format.|
-### June 2021 to October 2021.
+
+## June 2021 to October 2021.
 | Code | Description |
 |:-----|:------------|
 [1_pull_status_json_2021.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/1_pull_status_json_2021.py)| Downloads data for the status topic - GPS location, up-time info etc.
@@ -69,7 +72,7 @@ The `py` files below used to download data for the 4-gas sensor variant. 4-gas s
 [1_pull_climate_json_2021.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/1_pull_climate_json_2021.py)| Downloads data for the climate topic - temperature, RH data etc.
 [2_json_to_csv.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/2_json_to_csv.py)| Converts the json based files created by the above to CSV format.
 
-### January 2021 to May 2021.
+## January 2021 to May 2021.
 | Code | Description |
 |:-----|:------------|
 [1_pull_climate_json_2021.py](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/1_pull_climate_json_2021.py)| Downloads data for the climate topic - temperature, RH data etc.
@@ -78,10 +81,10 @@ The `py` files below used to download data for the 4-gas sensor variant. 4-gas s
 [1_pull_status_json_2021.py](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/1_pull_status_json_2021.py)| Downloads data for the status topic - GPS location, up-time info etc.
 [2_json_to_csv.py](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/2_json_to_csv.py)| Converts the json based files created by the above to CSV format.
 
-
-## TASK 1b - 1-gas sensors download
+# TASK 1b - 1-gas sensor data acquisition
 The `py` files below used to download data from the 1-gas sensor variant. These sensors are owned by the University of Oxford & grouped under the `oxaria2` file label / folder - they were the 2nd batch of sensors purchased for use by OxAria & are non-NERC funded (Research England(?)).
-### January 2020 to February 2021.
+
+## January 2020 to February 2021.
 | Code | Description |
 |:-----|:------------|
 [1_pull_status_json_2.py](https://github.com/tonybushido/oxaria_code/blob/main/src/1_jan20_feb21/1_pull_status_json_2.py) | Downloads data for the status topic - GPS location, up-time info etc.|
@@ -89,7 +92,8 @@ The `py` files below used to download data from the 1-gas sensor variant. These 
 [1_pull_gases_json_2.py](https://github.com/tonybushido/oxaria_code/blob/main/src/1_jan20_feb21/1_pull_gases_json_2.py)| Downloads data for the gases topic - gas concentrations data, voltages, N3 based T & RH etc.|
 [1_pull_climate_json_2.py](https://github.com/tonybushido/oxaria_code/blob/main/src/1_jan20_feb21/1_pull_climate_json_2.py)| Downloads data for the climate topic - temperature, RH data etc.|
 [2_json_to_csv_2.py](https://github.com/tonybushido/oxaria_code/blob/main/src/1_jan20_feb21/2_json_to_csv_2.py)| Converts the json based files created by the above to CSV format.|
-### January 2021 to May 2021.
+
+## January 2021 to May 2021.
 | Code | Description |
 |:-----|:------------|
 [1_pull_climate_json_2021_2.py](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/1_pull_climate_json_2021_2.py)| Downloads data for the climate topic - temperature, RH data etc.
@@ -97,7 +101,8 @@ The `py` files below used to download data from the 1-gas sensor variant. These 
 [1_pull_pm_json_2021_2.py](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/1_pull_pm_json_2021_2.py)| Downloads data for the particles topic - PM concentrations data, counts, flow rates etc.
 [1_pull_status_json_2021_2.py](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/1_pull_status_json_2021_2.py)| Downloads data for the status topic - GPS location, up-time info etc.
 [2_json_to_csv.py](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/2_json_to_csv.py)| Converts the json based files created by the above to CSV format.
-### June 2021 to October 2021.
+
+## June 2021 to October 2021.
 | Code | Description |
 |:-----|:------------|
 |[1_pull_status_json_2021_2.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/1_pull_status_json_2021_2.py)| Downloads data for the status topic - GPS location, up-time info etc.
@@ -106,7 +111,7 @@ The `py` files below used to download data from the 1-gas sensor variant. These 
 [1_pull_climate_json_2021_2.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/1_pull_climate_json_2021_2.py)| Downloads data for the climate topic - temperature, RH data etc.
 [2_json_to_csv_2.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/2_json_to_csv_2.py)| Converts the json based files created by the above to CSV format.
 
-## TASK 1c - Loading CSV files to Pandas for data analysis
+# TASK 1c - Loading CSVs to Pandas for data analysis
 The notebooks below present the workflow for;
 
 1. Loading the raw CSV datasets from above (1) to the Python based Pandas tabular data analysis framework https://pandas.pydata.org/docs/
@@ -115,7 +120,7 @@ The notebooks below present the workflow for;
 4. Adding common sensor names
 5. Saving the raw data to a binary *Feather* format, https://github.com/wesm/feather, which  provides a binary columnar serialization for Pandas data frames. It is designed to make reading and writing data frames efficient, and to make sharing data across data analysis languages easy.
 
-### Loading 4-gas sensor data
+## Loading 4-gas sensor data
 - Data January 2020 to February 2021
 
 | Code | Description |
@@ -142,7 +147,7 @@ The notebooks below present the workflow for;
 | [1_load_oxaria1_climate_v1.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/1_load_oxaria1_pm_v1.py)| Loading particles topic data (Nos, PM10,PM2.5, PM1), 4-gas|
 | [1_load_oxaria1_status_climate_v1.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/1_load_oxaria1_status_climate_v1.py)| Loading status topic data (location, signal strength etc.), 4-gas|
 
-### Loading 1-gas sensor data
+## Loading 1-gas sensor data
 - Data January 2020 to February 2021
 
 | Code | Description |
@@ -203,9 +208,7 @@ The notebooks below used compile reference measurements from reference methods i
 |---|---|
 | January 2020 to February 2021 | [4_converging_sebbes_highst_v1_ratified.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/4_converging_sebbes_highst_v1_ratified.ipynb) |
 | January 2021 to May 2021. | [b4_converging_sebbes_highst_and_auto_merged_sept2021.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/4_converging_sebbes_highst_and_auto_merged_sept2021.ipynb) |
-| June 2021 to October 2021. | [4_converging_sebbes_highst_and_auto_merged_sept2021.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/4_converging_sebbes_highst_and_auto_merged_sept2021.ipynb) |
-
-
+| June 2021 to October 2021. | [4_converging_sebbes_highst_and_auto_merged_sept2021.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/4_converging_sebbes_highst_and_auto_merged_sept2021.ipynb)
 
 | <!-- --> | <!-- --> |
 |---|---|
