@@ -229,6 +229,11 @@ These notebooks aggregate 10-second sensor observations to 15-minutes averages f
 Missing, no longer implemented
 
 # TASK 7 - Preparing training datasets
-The notebook below prepares sensor datasets for RF regressor training.
+This notebook prepares sensor datasets for RF regressor training. 
+
+- Combines January 2020 to February 2021 + January 2021 to May 2021 sensor datasets
+- Subsets the sensor dataset to High St & St Ebbes which are co-located with reference observations
+- Extracts essential & useful info from all 4 topics, 
+- Joins reference measurement data on to the sensor data 
 
 [7_extract_modelling_datasets_v2_sept21_update_with_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/7_extract_modelling_datasets_v2_sept21_update_with_transients.ipynb)
