@@ -246,29 +246,28 @@ Notebook(s) applying empirical filters to clean up gross anomalies in sensor dat
 
 | <!-- --> | <!-- --> |
 |---|---|
-|PM10 | [9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb) |
-| PM2.5 | [9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb) ||[9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb) |
-|NO2 | [9.0_baseline_analysis_no2_v2_536_sept_update_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/9.0_baseline_analysis_no2_v2_536_sept_update_transients.ipynb) |
+| PM10 | [9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb) |
+| PM2.5 | [9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb) ||
+| NO2 | [9.0_baseline_analysis_no2_v2_536_sept_update_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/9.0_baseline_analysis_no2_v2_536_sept_update_transients.ipynb) |
 
 ## Correction model development & training
-The notebooks below train train ML correction models for PM10, PM2.5 & NO2. The models attenuate the interference affects of (largely) temperature & relative humidity. PM model implement an SKlearn based Random Forest Regression method, NO2 proved more successful using a LIGHTGBM Gadient Boost method.
+The notebooks below train ML correction models for PM10, PM2.5 & NO2. The models attenuate the interferinge affects of (largely) temperature & relative humidity. The PM model implement an SKlearn based Random Forest Regression method, NO2 proved more successful using a LIGHTGBM Gadient Boost method.
 
-
+| <!-- --> | <!-- --> |
+|---|---|
+| PM10 | [pm10_sebbes_training_jun2may_sebbes_highst_xt.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/pm10_sebbes_training_jun2may_sebbes_highst_xt.ipynb)|
+| PM2.5 | [pm25_sebbes_training_jun_aug_sebbes_xt.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/pm25_sebbes_training_jun_aug_sebbes_xt.ipynb)|
+| NO2 | [no2_sebbes_LGBM_training_jun2may_sebbes_highst_xt_early_highs_train_normalized.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/no2_sebbes_LGBM_training_jun2may_sebbes_highst_xt_early_highs_train_normalized.ipynb)|
 
 
 ## TASK 10 - Model deployment
 Deployment of the RF regressor models (PM10 & PM2.5) + Gradient Boosting model (NO2), including corrections for non-unitary gradients & non-zero intercept terms vs. hold-out validation set.
-
-https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/10a_pm10_model_deployment_2020_SH_xt.ipynb
-https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/10b_pm25_model_deployment_2020_H_xt.ipynb
 
 
 https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/10d_get_final_timeseries.ipynb
 
 ## TASK 11 - Model correction visualisation
 Notebook for visualising model correction performance.
-
-https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/11_corrected_15m_observations_fcor.ipynb
 
 
 
