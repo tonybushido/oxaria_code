@@ -53,6 +53,8 @@ Downloads were handled separately for 1 and 4-gas sensors described in sections 
 ## TASK 1a - 4-gas sensor data acquisition
 The `.py` scripts below used to download data from the 4-gas sensor variant from the AWS cloud to local Json files & then to convert Json to CSV format.
 
+Mods to these scripts needed to update the local datasets. Recommend modifying the `./June 2021 to October 2021` as these most up to date with SCS topics. NB. the topic scope does change when SCS add new report / attenuated pollutant variables.
+
 ### January 2020 to February 2021.
 | Code | Description |
 |:-----|:------------|
@@ -84,6 +86,8 @@ The `.py` scripts below used to download data from the 4-gas sensor variant from
 ## TASK 1b - 1-gas sensor data acquisition
 The `py` files below used to download data from the 1-gas sensor variant. These sensors are owned by the University of Oxford & grouped under the `oxaria2` file label / folder - they were the 2nd batch of sensors purchased for use by OxAria & are non-NERC funded (Research England(?)).
 
+Mods to these scripts needed to update the local datasets. Recommend modifying the `./June 2021 to October 2021` as these most up to date with SCS topics. NB. the topic scope does change when SCS add new report / attenuated pollutant variables.
+
 ### January 2020 to February 2021.
 | Code | Description |
 |:-----|:------------|
@@ -112,13 +116,13 @@ The `py` files below used to download data from the 1-gas sensor variant. These 
 [2_json_to_csv_2.py](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/2_json_to_csv_2.py)| Converts the json based files created by the above to CSV format.
 
 ## TASK 1c - Loading CSVs to Pandas for data analysis
-The notebooks below present the workflow for;
+The notebooks below;
 
-1. Loading the raw CSV datasets from above (1) to the Python based Pandas tabular data analysis framework https://pandas.pydata.org/docs/
-2. Removing duplicate records by sesnor & observation timestamp
-3. Re-indexing
-4. Adding common sensor names
-5. Saving the raw data to a binary *Feather* format, https://github.com/wesm/feather, which  provides a binary columnar serialization for Pandas data frames. It is designed to make reading and writing data frames efficient, and to make sharing data across data analysis languages easy.
+1. Load the raw CSV datasets from above (1a & b) to to a dataframe (Pandas)
+2. Removing duplicate records by sensor & observation timestamp
+3. Re-index
+4. Add common sensor names (TODO review sensor naming, it currently gets redone in downstream data vis tasks, but of a pain)
+5. Save to a binary format `Feather` for fast loading & saving
 
 ### Loading 4-gas sensor data
 - Data January 2020 to February 2021
@@ -175,7 +179,7 @@ The notebooks below present the workflow for;
 
 ## TASK 2 - Visualising raw datasets
 
-The notebooks below used to display & visualise raw sensor data for exploratory data analysis.
+Notebooks to display & visualise raw sensor data for exploratory data analysis e.g. to indentify periods of instability / discontinuity for task 3.
 
 | January 2020 to February 2021 | January 2021 to May 2021 | June 2021 to October 2021 |
 |:-----------------------------:|:------------------------:|:-------------------------:|
@@ -188,7 +192,9 @@ The notebooks below used to display & visualise raw sensor data for exploratory 
 [2_first_look_oxaria2_raw_status_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/2_first_look_oxaria2_raw_status_v1.ipynb) | [2_first_look_oxaria2_raw_status_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/2_first_look_oxaria2_raw_status_v1.ipynb) | [2_first_look_oxaria2_raw_status_v1.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/2_first_look_oxaria2_raw_status_v1.ipynb) |
 
 ## TASK 3 - Screening out unstable periods in sensor time series
-The notebooks below used to screen out parts of respective time series where there is clear evidnce of instability / discontinuity.
+Notebooks to screen out parts of respective time series where there is clear evidence of instability / discontinuity.
+
+Mods needed here if datasets updated & evidence of instability / discontinuity exists.
 
 | January 2020 to February 2021. | January 2021 to May 2021 | June 2021 to October 2021 |
 |---|---|---|
@@ -204,6 +210,8 @@ The notebooks below used to screen out parts of respective time series where the
 ## TASK 4 - Compiling reference obervations
 The notebooks below used compile reference measurements from reference methods installed in Oxford 15-minute averages. Not the 15-minute data are available by special arrangement with operators.
 
+Mods / updates needed here if the sensor data are upodated, need to keep reference dataset up to date for the co-located sensor location - High St & St Ebbes.
+
 | <!-- --> | <!-- --> |
 |---|---|
 | January 2020 to February 2021 | [4_converging_sebbes_highst_v1_ratified.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/4_converging_sebbes_highst_v1_ratified.ipynb) |
@@ -217,7 +225,7 @@ The notebooks below used compile reference measurements from reference methods i
 | June 2021 to October 2021 | [4_converging_sebbes_highst_and_auto_merged_jan2022.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/4_converging_sebbes_highst_and_auto_merged_jan2022.ipynb) |
 
 ## TASK 5 - Aggregating data to 15-minutes averages
-These notebooks aggregate 10-second sensor observations to 15-minutes averages for comparing with the reference observations above.
+Nitebooks to aggregate 10-second sensor observations to 15-minutes averages for comparing with the reference observations above. Prior to aggrgation some calcs to bring out lag / hysteresis in T & RH interferences.
 
 | **PM** |  |
 |---|---|
@@ -258,24 +266,29 @@ Notebook(s) applying empirical filters to clean up gross anomalies in sensor dat
 ## Correction model development & training
 The notebooks below train ML correction models for PM10, PM2.5 & NO2. The models attenuate the interferinge affects of (largely) temperature & relative humidity. The PM model implement an SKlearn based Random Forest Regression method, NO2 proved more successful using a LIGHTGBM Gadient Boost method.
 
+Mods needs here to retrain the models on new updated / extebded sensor data,
+
 | <!-- --> | <!-- --> |
 |---|---|
 | PM10 | [pm10_sebbes_training_jun2may_sebbes_highst_xt.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/pm10_sebbes_training_jun2may_sebbes_highst_xt.ipynb)|
 | PM2.5 | [pm25_sebbes_training_jun_aug_sebbes_xt.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/pm25_sebbes_training_jun_aug_sebbes_xt.ipynb)|
 | NO2 | [no2_sebbes_LGBM_training_jun2may_sebbes_highst_xt_early_highs_train_normalized.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/no2_sebbes_LGBM_training_jun2may_sebbes_highst_xt_early_highs_train_normalized.ipynb)|
 
-
 ## TASK 10 - Model deployment
 Deployment of the RF regressor models (PM10 & PM2.5) + Gradient Boosting model (NO2), including corrections for non-unitary gradients & non-zero intercept terms vs. hold-out validation set.
 
-[10a_pm10_model_deployment_2020_SH_xt.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/10a_pm10_model_deployment_2020_SH_xt.ipynb)
-[10b_pm25_model_deployment_2020_H_xt.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/10b_pm25_model_deployment_2020_H_xt.ipynb)
-[10c_no2_model_deployment_2020_SH_xt_normalised.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/10c_no2_model_deployment_2020_SH_xt_normalised.ipynb)
-[10d_get_final_timeseries.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/10d_get_final_timeseries.ipynb)
+Mods needed here on update of raw data
+
+| <!-- --> |
+|---|
+|[10a_pm10_model_deployment_2020_SH_xt.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/10a_pm10_model_deployment_2020_SH_xt.ipynb)|
+|[10b_pm25_model_deployment_2020_H_xt.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/10b_pm25_model_deployment_2020_H_xt.ipynb)|
+|[10c_no2_model_deployment_2020_SH_xt_normalised.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/10c_no2_model_deployment_2020_SH_xt_normalised.ipynb)|
+|[10d_get_final_timeseries.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/10d_get_final_timeseries.ipynb)|
 
 ## TASK 11 - Model correction visualisation
 Notebook for visualising model correction performance.
 
-
+[11_corrected_15m_observations_fcor.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/11_corrected_15m_observations_fcor.ipynb)
 
 
