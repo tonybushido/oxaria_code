@@ -219,11 +219,14 @@ The notebooks below used compile reference measurements from reference methods i
 ## TASK 5 - Aggregating data to 15-minutes averages
 These notebooks aggregate 10-second sensor observations to 15-minutes averages for comparing with the reference observations above.
 
-| <!-- --> | <!-- --> |
+| PM | <!-- --> |
 |---|---|
 | January 2020 to February 2021 | [5_resample_stable_dfs_max_gradients_testing.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/5_resample_stable_dfs_max_gradients_testing.ipynb) |
 | January 2021 to May 2021 | [5_resample_stable_dfs_v2_with_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/5_resample_stable_dfs_v2_with_transients.ipynb) |
 | June 2021 to October 2021 | [5_resample_stable_dfs_v2_with_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/5_resample_stable_dfs_v2_with_transients.ipynb) |
+| PM | <!-- --> |
+|---|---|
+https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/5_resample_stable_dfs_v2_with_transients_no2.ipynb
 
 ## TASK 6
 Missing, no longer implemented.
@@ -236,7 +239,10 @@ This notebook prepares sensor datasets for RF regressor training.
 - Extracts essential & useful info from all 4 topics, 
 - Joins reference measurement data on to the sensor data 
 
-[7_extract_modelling_datasets_v2_sept21_update_with_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/7_extract_modelling_datasets_v2_sept21_update_with_transients.ipynb)
+| <!-- --> | <!-- --> |
+|---|---|
+| PM | [7_extract_modelling_datasets_v2_sept21_update_with_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/7_extract_modelling_datasets_v2_sept21_update_with_transients.ipynb) |
+| NO2 | [7_extract_modelling_datasets_v2_oct21_update_with_transients_no2.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/7_extract_modelling_datasets_v2_oct21_update_with_transients_no2.ipynb) |
 
 ## TASK 8
 Missing, no longer implemented.
