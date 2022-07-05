@@ -219,11 +219,14 @@ The notebooks below used compile reference measurements from reference methods i
 ## TASK 5 - Aggregating data to 15-minutes averages
 These notebooks aggregate 10-second sensor observations to 15-minutes averages for comparing with the reference observations above.
 
-| <!-- --> | <!-- --> |
+| PM | <!-- --> |
 |---|---|
 | January 2020 to February 2021 | [5_resample_stable_dfs_max_gradients_testing.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/5_resample_stable_dfs_max_gradients_testing.ipynb) |
 | January 2021 to May 2021 | [5_resample_stable_dfs_v2_with_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/5_resample_stable_dfs_v2_with_transients.ipynb) |
 | June 2021 to October 2021 | [5_resample_stable_dfs_v2_with_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/5_resample_stable_dfs_v2_with_transients.ipynb) |
+| PM | <!-- --> |
+|---|---|
+https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/5_resample_stable_dfs_v2_with_transients_no2.ipynb
 
 ## TASK 6
 Missing, no longer implemented.
@@ -236,36 +239,41 @@ This notebook prepares sensor datasets for RF regressor training.
 - Extracts essential & useful info from all 4 topics, 
 - Joins reference measurement data on to the sensor data 
 
-[7_extract_modelling_datasets_v2_sept21_update_with_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/7_extract_modelling_datasets_v2_sept21_update_with_transients.ipynb)
+| <!-- --> | <!-- --> |
+|---|---|
+| PM | [7_extract_modelling_datasets_v2_sept21_update_with_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/7_extract_modelling_datasets_v2_sept21_update_with_transients.ipynb) |
+| NO2 | [7_extract_modelling_datasets_v2_oct21_update_with_transients_no2.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/7_extract_modelling_datasets_v2_oct21_update_with_transients_no2.ipynb) |
 
 ## TASK 8
 Missing, no longer implemented.
 
 ## TASK 9 - Empirical filters & sensor baselining 
-Notebook applying empirical filters to clean up gross anomalies in sensor data, then applies AIRPLS to correct for baseline offset & drift.
+Notebook(s) applying empirical filters to clean up gross anomalies in sensor data. The AIRPLS baselining method is then implemented to correct for baseline offset & baseline drift for each sensor individually.
 
-[9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb)
+| <!-- --> | <!-- --> |
+|---|---|
+| PM10 | [9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb) |
+| PM2.5 | [9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb) ||
+| NO2 | [9.0_baseline_analysis_no2_v2_536_sept_update_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/9.0_baseline_analysis_no2_v2_536_sept_update_transients.ipynb) |
 
 ## Correction model development & training
+The notebooks below train ML correction models for PM10, PM2.5 & NO2. The models attenuate the interferinge affects of (largely) temperature & relative humidity. The PM model implement an SKlearn based Random Forest Regression method, NO2 proved more successful using a LIGHTGBM Gadient Boost method.
 
--PM10
--PM2.5
--NO2
+| <!-- --> | <!-- --> |
+|---|---|
+| PM10 | [pm10_sebbes_training_jun2may_sebbes_highst_xt.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/pm10_sebbes_training_jun2may_sebbes_highst_xt.ipynb)|
+| PM2.5 | [pm25_sebbes_training_jun_aug_sebbes_xt.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/pm25_sebbes_training_jun_aug_sebbes_xt.ipynb)|
+| NO2 | [no2_sebbes_LGBM_training_jun2may_sebbes_highst_xt_early_highs_train_normalized.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/no2_sebbes_LGBM_training_jun2may_sebbes_highst_xt_early_highs_train_normalized.ipynb)|
 
 
 ## TASK 10 - Model deployment
 Deployment of the RF regressor models (PM10 & PM2.5) + Gradient Boosting model (NO2), including corrections for non-unitary gradients & non-zero intercept terms vs. hold-out validation set.
-
-https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/10a_pm10_model_deployment_2020_SH_xt.ipynb
-https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/10b_pm25_model_deployment_2020_H_xt.ipynb
 
 
 https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/10d_get_final_timeseries.ipynb
 
 ## TASK 11 - Model correction visualisation
 Notebook for visualising model correction performance.
-
-https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/11_corrected_15m_observations_fcor.ipynb
 
 
 
