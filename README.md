@@ -227,8 +227,8 @@ Mods / updates needed here if the sensor data are upodated, need to keep referen
 ## TASK 5 - Aggregating data to 15-minutes averages
 Nitebooks to aggregate 10-second sensor observations to 15-minutes averages for comparing with the reference observations above. Prior to aggrgation some calcs to bring out lag / hysteresis in T & RH interferences.
 
-| **PM** |  |
-|---|---|
+| PM |  |
+|:---|---|
 |  January 2020 to February 2021  | [5_resample_stable_dfs_max_gradients_testing.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/5_resample_stable_dfs_max_gradients_testing.ipynb)  |
 |  January 2021 to May 2021  | [5_resample_stable_dfs_v2_with_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/5_resample_stable_dfs_v2_with_transients.ipynb)  |
 |  June 2021 to October 2021  | [5_resample_stable_dfs_v2_with_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/5_resample_stable_dfs_v2_with_transients.ipynb)  |
