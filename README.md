@@ -242,15 +242,18 @@ This notebook prepares sensor datasets for RF regressor training.
 Missing, no longer implemented.
 
 ## TASK 9 - Empirical filters & sensor baselining 
-Notebook applying empirical filters to clean up gross anomalies in sensor data, then applies AIRPLS to correct for baseline offset & drift.
+Notebook(s) applying empirical filters to clean up gross anomalies in sensor data. The AIRPLS baselining method is then implemented to correct for baseline offset & baseline drift for each sensor individually.
 
-[9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb)
+| <!-- --> | <!-- --> |
+|---|---|
+|PM10 | [9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb) |
+| PM2.5 | [9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb) ||[9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/9.0_baseline_analysis_pm_v2_536_sept_update_transients.ipynb) |
+|NO2 | [9.0_baseline_analysis_no2_v2_536_sept_update_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/9.0_baseline_analysis_no2_v2_536_sept_update_transients.ipynb) |
 
 ## Correction model development & training
+The notebooks below train train ML correction models for PM10, PM2.5 & NO2. The models attenuate the interference affects of (largely) temperature & relative humidity. PM model implement an SKlearn based Random Forest Regression method, NO2 proved more successful using a LIGHTGBM Gadient Boost method.
 
--PM10
--PM2.5
--NO2
+
 
 
 ## TASK 10 - Model deployment
