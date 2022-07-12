@@ -291,4 +291,9 @@ Notebook for visualising model correction performance.
 
 [11_corrected_15m_observations_fcor.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/11_corrected_15m_observations_fcor.ipynb)
 
+# Machine learningmethods for environmental interference correction
+Intro blah blah.
 
+## Random forest regression modelling
+
+## Gradient descent boosting
