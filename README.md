@@ -312,8 +312,8 @@ This task / step to be implemented after TASK 9 & before deployment / follow-on 
 
 | Description | File  |
 |:---|---|
-| RFR model training notebook - NO2  | [5_resample_stable_dfs_max_gradients_testing.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/1_2020/5_resample_stable_dfs_max_gradients_testing.ipynb)  |
-| Trained model as a 
+| RFR model training notebook - NO2  | [no2_sebbes_training_jun2nov_sebbes_methods_paper_sensitivity.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/model_code/methods_paper/no2_sebbes_training_jun2nov_sebbes_methods_paper_sensitivity.ipynb)  |
+| Trained model as a
 |  RFR model training notebook - PM10  | [5_resample_stable_dfs_v2_with_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/2_q12021/5_resample_stable_dfs_v2_with_transients.ipynb)  |
 |  RFR model training notebook - PM2.5  | [5_resample_stable_dfs_v2_with_transients.ipynb](https://github.com/tonybushido/oxaria_code/blob/main/src/3_oct2021/5_resample_stable_dfs_v2_with_transients.ipynb)  |
 
