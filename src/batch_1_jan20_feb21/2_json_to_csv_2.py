@@ -2,12 +2,12 @@
 #---------
 
 import sys
-sys.path.append('/home/tonyb/Gdrive/MinicondaProjects/oxaria/qoax')
+sys.path.append('./oxaria/qoax')
 from write_json2csv import write_json2csv
 import os
 
-os.chdir('/home/tonyb/Gdrive/MinicondaProjects/oxaria/data/raw/2oxaria/json/gap_filling/')
-folder = '/home/tonyb/Gdrive/MinicondaProjects/oxaria/data/raw/2oxaria/json/gap_filling/'
+os.chdir('./oxaria/data/raw/2oxaria/json/gap_filling/')
+folder = './oxaria/data/raw/2oxaria/json/gap_filling/'
 
 # Pull oxaria1 climate
 #------------------

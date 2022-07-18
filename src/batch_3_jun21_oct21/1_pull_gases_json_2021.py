@@ -2,12 +2,12 @@
 ##---------
 
 import sys
-sys.path.append('/home/tonyb/Gdrive/MinicondaProjects/oxaria/qoax')
+sys.path.append('./oxaria/qoax')
 from pull_topics import pull_topics
 import os
 
-os.chdir('/home/tonyb/Gdrive/MinicondaProjects/oxaria/data/raw/1oxaria/json/gap_filling/jun_to_sept_2021/')
-topic_path = '/home/tonyb/Gdrive/MinicondaProjects/oxaria/topics/1oxaria/'
+os.chdir('./oxaria/raw/1oxaria/json/gap_filling/batch_3_jun21_oct21/')
+topic_path = './oxaria/topics/1oxaria/'
 
 ## Pull oxaria1 Jan
 ##------------------

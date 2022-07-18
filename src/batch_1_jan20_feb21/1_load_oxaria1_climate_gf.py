@@ -19,7 +19,7 @@
 # Imports
 #---------
 import sys
-sys.path.append('/home/tonyb/Gdrive/MinicondaProjects/oxaria/qoax')
+sys.path.append('./oxaria/qoax')
 from load4gascsv_v2 import load4gascsv_v2
 import pandas as pd
 import feather
@@ -28,8 +28,8 @@ import os
 
 # File locations
 #----------------
-the_folder = '/home/tonyb/Gdrive/MinicondaProjects/oxaria/data/raw/1oxaria/json/gap_filling/'
-#/Gdrive/MinicondaProjects/oxaria/data/raw/1oxaria/json/gap_filling
+the_folder = './oxaria/data/raw/1oxaria/json/gap_filling/batch_1_jan20_feb21//'
+#/Gdrive/MinicondaProject./oxaria/data/raw/1oxaria/json/gap_filling/batch_1_jan20_feb21//
 
 # Loading climate data with load4gascsv function
 #------------------------------------------------

@@ -2,12 +2,12 @@
 #---------
 
 import sys
-sys.path.append('/home/tonyb/Gdrive/MinicondaProjects/oxaria/qoax')
+sys.path.append('./oxaria/qoax')
 from pull_topics import pull_topics
 import os
 
-os.chdir('/home/tonyb/Gdrive/MinicondaProjects/oxaria/data/raw/2oxaria/json/gap_filling/')
-topic_path = '/home/tonyb/Gdrive/MinicondaProjects/oxaria/topics/2oxaria/'
+os.chdir('./oxaria/data/raw/2oxaria/json/gap_filling/')
+topic_path = './oxaria/topics/2oxaria/'
 
 # Pull oxaria2 Jan
 #------------------
@@ -133,4 +133,4 @@ topic_type='climate', \
 start_date='2021-02-01T00:00:00Z', \
 end_date='2021-03-01T00:00:00Z', \
 project_id='oxaria2', \
-outfile_id='feb21')
+outfile_id='feb21/')
