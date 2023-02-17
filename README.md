@@ -1,5 +1,5 @@
 # Oxaria sensor data processing repository
-This repo hosts the exploratory data analysis code base of the OxAria (AQ) sensor project.
+This repo hosts the exploratory data analysis code base of the OxAria (AQ) sensor project. It is intended as a primer to code base & ML workfkows for extended research team to be able to refer to with some context attached.
 
 ## Project info
 Please see [oxaria.org.uk](https://www.oxaria.org.uk/) for further OxAria info.
